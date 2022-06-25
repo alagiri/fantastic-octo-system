@@ -1,0 +1,25 @@
+{
+    "visual": {
+        "name": "test4webpack",
+        "displayName": "test4webpack",
+        "guid": "test4webpack203E6838BED1449AA181F0133A182900",
+        "visualClassName": "Visual",
+        "version": "1.0.0",
+        "description": "Test visual",
+        "supportUrl": "https://www.esri.com",
+        "gitHubUrl": ""
+    },
+    "apiVersion": "2.6.0",
+    "author": {
+        "name": "Esri",
+        "email": "info@esri.com"
+    },
+    "assets": {
+        "icon": "assets/icon.png"
+    },
+    "externalJS": null,
+    "style": "style/visual.less",
+    "capabilities": "capabilities.json",
+    "dependencies": null,
+    "stringResources": []
+}
