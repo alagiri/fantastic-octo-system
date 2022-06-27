@@ -24,6 +24,8 @@ const pluginLocation = './.tmp/precompile/visualPlugin.ts'; // path to visual pl
 const resourcesFolder = path.join(".","stringResources");
 const localizationFolders = fs.existsSync(resourcesFolder) && fs.readdirSync(resourcesFolder);
 
+console.log("power bi api version", powerbiApi.version);
+
 // babel options to support IE11
 let babelOptions = {
     "presets": [

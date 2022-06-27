@@ -45,6 +45,7 @@ export class Visual implements IVisual {
 
     constructor(options: VisualConstructorOptions) {
         console.log('Visual constructor', options);
+        // debugger;
         this.target = options.element;
         this.updateCount = 0;
         if (document) {
@@ -63,6 +64,7 @@ export class Visual implements IVisual {
         console.log('Visual update', options);
         if (this.textNode) {
             this.textNode.textContent = (this.updateCount++).toString();
+            fetch("https://www.arcgis.com/sharing/rest/portals/self?f=json").then((out) => out.json().then(data => console.log(data)));
         }
     }
 
