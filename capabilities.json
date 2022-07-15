@@ -1,15 +1,4 @@
-{   "privileges": [
-        {
-            "name": "WebAccess",
-            "essential": true,
-            "parameters": []
-        }, 
-        {
-            "name": "LocalStorage",
-            "essential": false
-        }
-    ],
-    "dataRoles": [
+{   "dataRoles": [
         {
             "displayName": "Category Data",
             "name": "category",
